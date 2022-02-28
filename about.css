@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+}
+
+body {
+    background-color: #fffef4;
+}
+
+.greeting {
+    font-size: 28px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.description {
+    font-size: 28px;
+    margin: 50px;
+    text-align: center;
+}
+
+.dividerLine {
+    height: 1px;
+    margin: 10px;
+    background-color: black;
+    opacity: 0.1;
+}
+
+#aboutmecontainer {
+    display: flex;
+}
+
+#aboutmedescription {
+    margin: 30px;
+}

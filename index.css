@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Source Serif Pro';
+    font-weight: 200;
+}
+
+body {
+    background: linear-gradient(90deg, #144553, #D77F73);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 50s infinite;
+}
+
+@keyframes cambiar {
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}  /*100 a 50 para que regrese*/
+    100% {background-position: 0 50%;}
+}
+
+.name {
+    margin-top: 240px;
+    margin-bottom: 200px;
+}
+
+.firstname {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+
+.links {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.60;
+}
+
+.links a {
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+}
