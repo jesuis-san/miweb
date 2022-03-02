@@ -1,4 +1,4 @@
-**¡Hola! ** :smile:
+**¡Hola!** :smile:
 
 Este es mi primer proyecto: crear mi propia página web. Hasta el momento ha sido una experiencia divertida.
 
