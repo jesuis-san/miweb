@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Louis George Café;
+    src: url(/fonts/Louis\ George\ Cafe.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     color: #242424;
-    font-family: 'Source Serif Pro';
+    font-family: 'Louis George Café', 'Source Serif Pro';
     font-weight: 400;
 }
 
@@ -10,15 +15,28 @@ body {
     background-color: #fffef4;
 }
 
+
+.imagesan {
+    width: 18px;
+    height: 18px;
+    padding: 50px;
+}
+
 .greeting {
+    font-family: 'Louis George Café';
     font-size: 28px;
-    margin-top: 80px;
+    margin-top: 10px;
     text-align: center;
 }
 
 .description {
     font-size: 28px;
-    margin: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.message{
+    margin: 30px;
     text-align: center;
 }
 
@@ -31,8 +49,16 @@ body {
 
 #aboutmecontainer {
     display: flex;
+    justify-content: space-around;
+    margin: 100px;
 }
 
 #aboutmedescription {
-    margin: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+#aboutmeprojects {
+    width: 400px;
+    height: 400px;
 }

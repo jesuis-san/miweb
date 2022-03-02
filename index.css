@@ -3,8 +3,14 @@
     padding: 0;
     color: white;
     font-family: 'Source Serif Pro';
-    font-weight: 200;
+    font-weight: 300;
 }
+
+@font-face {
+    font-family: Louis George Café;
+    src: url(/fonts/Louis\ George\ Cafe.ttf);
+}
+
 
 body {
     background: linear-gradient(90deg, #144553, #D77F73);
@@ -26,8 +32,8 @@ body {
 
 .firstname {
     text-align: center;
-    font-size: 90px;
-    letter-spacing: 10px;
+    font-size: 60px;
+    letter-spacing: 5px;
 }
 
 .links {
