@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: white;
     font-family: 'Source Serif Pro';
     font-weight: 300;
@@ -25,28 +26,40 @@ body {
     100% {background-position: 0 50%;}
 }
 
-.name {
-    margin-top: 240px;
-    margin-bottom: 200px;
+.main-name {
+    margin: 240px;
+    padding: 40px;
+    text-align: center;
 }
 
-.firstname {
-    text-align: center;
+.main-name__item {
     font-size: 60px;
     letter-spacing: 5px;
 }
 
-.links {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+.footer-nav {
+    margin: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-nav__item{
+    display: inline-block;
     opacity: 0.60;
 }
 
-.links a {
+.footer-nav__item a {
+    text-decoration: none;
     font-size: 17px;
     padding: 20px;
-    text-decoration: none;
     color:white;
     font-weight: 400;
+}
+
+.footer-nav__item a:hover {
+    color: #FFBD22;
+}
+
+.footer-nav__item a:active{
+    color: #CDA434 ;
 }

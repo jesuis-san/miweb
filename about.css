@@ -9,55 +9,92 @@
     color: #242424;
     font-family: 'Louis George Café', 'Source Serif Pro';
     font-weight: 400;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #fffef4;
+.figure-santiagosphoto{
+    text-align: center;
 }
 
+.santiagosphoto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+}
 
-.avocado {
-    margin: 40px;
+.main-name{
+    text-align: center;
+    margin: 30px;
+    font-weight: bold ;
+}
+
+.headline{
+    text-align: center;
+}
+
+.main-nav{
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+}
+
+.main-nav__item{
+    padding: 10px ;
+    display: inline-block;
+}
+
+.main-nav__item a{
     text-decoration: none;
 }
 
-.greeting {
-    font-family: 'Louis George Café';
-    font-size: 28px;
-    margin-top: 10px;
+.main-nav__item a:hover{
+    color: #144553;
+}
+
+.main-nav__item a:active{
+    color: #D77F73;
+}
+
+.projects{
     text-align: center;
 }
 
-.description {
-    font-size: 28px;
-    margin: 30px;
-    text-align: center;
-}
-
-.message{
-    margin: 30px;
-    text-align: center;
-}
-
-.dividerLine {
-    height: 1px;
-    margin: 10px;
-    background-color: black;
-    opacity: 0.1;
-}
-
-#aboutmecontainer {
+.project-itemone{
+    margin: 30px 160px;
+    padding: 30px;
     display: flex;
-    justify-content: space-around;
-    margin: 100px;
+    flex-direction: row-reverse;
 }
 
-#aboutmedescription {
-    width: 400px;
-    height: 400px;
+.one-itemone{
+    padding: 10px 20px;
 }
 
-#aboutmeprojects {
-    width: 400px;
-    height: 400px;
+.one-itemtwo{
+    padding: 10px 20px ;
 }
+
+.imagendoradamas{
+    width: 326px;
+    height: 152px;
+
+}
+
+.books{
+    text-align: center;
+}
+
+.books-list{
+    display: flex;
+    justify-content: center;
+}
+
+.book-item{
+    padding: 20px;
+}
+
+footer{
+    background-color: #fffef4;
+}
+
