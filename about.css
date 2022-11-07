@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #242424;
+    color: #144553;
     font-family: 'Louis George Café', 'Source Serif Pro';
     font-weight: 400;
     box-sizing: border-box;
@@ -36,24 +36,38 @@
 .main-nav{
     margin: 30px;
     list-style: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .main-nav__item{
     padding: 10px ;
-    display: inline-block;
 }
 
 .main-nav__item a{
     text-decoration: none;
+    color: #144553;
 }
 
 .main-nav__item a:hover{
-    color: #144553;
+    color: #FFBD22;
 }
 
 .main-nav__item a:active{
     color: #D77F73;
+}
+
+.aboutme{
+    text-align: center;
+}
+
+.aboutme-description{
+    margin: 30px 200px;
+    text-align: center;
+}
+
+.aboutme-description p{
+    padding: 30px;
 }
 
 .projects{
@@ -64,6 +78,7 @@
     margin: 30px 160px;
     padding: 30px;
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 
@@ -95,6 +110,6 @@
 }
 
 footer{
-    background-color: #fffef4;
+    background-color: #edede5;
 }
 
